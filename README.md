@@ -10,7 +10,7 @@ package main
 
 import (
 	"fmt"
-	"progbar"
+	"github.com/Jun0ss/progbar"
 )
 
 func main() {
