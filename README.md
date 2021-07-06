@@ -12,7 +12,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/junbys/progbar"
+	"github.com/JunBys/progbar"
 )
 
 func main() {
