@@ -1,7 +1,9 @@
 # progbar
-progbar是一个基于Golang的进度条第三方包。 progbar is a package of license terms based on Golang.
+progbar是一个基于Golang的进度条第三方包。 
+progbar is a package of license terms based on Golang.
 
 操作简单，您只需要像包传两个参数，1.当前数值(int) 和 2.总数值(int)，progbar会根据您传入的两个参数进行计算，并将格式化后的进度条和百分比以string类型返回给调用程序。
+
 Simple, you only need to pass two like packets, 1. the current value (int) and 2. the total parameter value (int, progbar will calculate your two parameters, the operation bar after the specific operation and the string type return to the call program.
 
 
@@ -10,7 +12,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/Jun0ss/progbar"
+	"github.com/junbys/progbar"
 )
 
 func main() {
@@ -22,7 +24,9 @@ func main() {
 	fmt.Print(val)
 }
 ```
-输出结果/output：
+#### 输出结果/output：
+可自动根据终端窗口调整大小，
+It can automatically adjust the size according to the terminal window
 ```
 [################################                        ] 64 %    (83/128)
 ```
