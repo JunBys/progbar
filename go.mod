@@ -1,3 +1,3 @@
-module github.com/Jun0ss/progbar
+module github.com/junbys/progbar
 
 go 1.16
